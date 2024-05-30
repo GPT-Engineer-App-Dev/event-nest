@@ -15,8 +15,8 @@ const Index = () => {
         <Box boxSize="sm">
           <Image src="/images/event-management.png" alt="Event Management" />
         </Box>
-        <Button as={Link} to="/create-event" colorScheme="teal" size="lg" leftIcon={<FaCalendarAlt />}>
-          Get Started
+        <Button as={Link} to="/book-ticket" colorScheme="teal" size="lg" leftIcon={<FaCalendarAlt />}>
+          Book Tickets
         </Button>
       </VStack>
     </Container>
